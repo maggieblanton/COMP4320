@@ -3,26 +3,25 @@ import java.net.*;
 
 class UDPServer {
    public static int offset = 0; 
-   public static String value = "100000";
 
    public static void main(String args[]) throws Exception {
    
-      DatagramSocket serverSocket = new DatagramSocket(10050);
+      DatagramSocket serverSocket = new DatagramSocket(11045);
       String newHeader = "";
       String sentence = "";
    
-      byte[] receiveData = new byte[256];
-      byte[] sendData = new byte[256];
       byte[] header;
       byte[] packet;
+      byte[] outData = new byte[256];
+      byte[] inData = new byte[256];
       int packetNum = 0; 
       
       while (true) {
-         DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
+         DatagramPacket inPacket = new DatagramPacket(inData, inData.length);
          
-         serverSocket.receive(receivePacket);
+         serverSocket.receive(inPacket);
          
-         String message = new String(receivePacket.getData());
+         String message = new String(inPacket.getData());
       
          String[] filename = message.split(" ");
          System.out.println("Attempting to read: " + filename[1]);
@@ -30,14 +29,14 @@ class UDPServer {
          File tmpDir = new File(path);
          
          if (tmpDir.exists()) { 
-            InetAddress IPAddress = receivePacket.getAddress();
+            InetAddress IPAddress = inPacket.getAddress();
           
-            int port = receivePacket.getPort();
+            int port = inPacket.getPort();
          
            
             RandomAccessFile read = new RandomAccessFile(filename[1], "r");
-            long size = read.length();
             int flag = 0;
+            long size = read.length();
          
             while (flag != -1) {
              
@@ -68,20 +67,20 @@ class UDPServer {
             
             
                if (flag != -1) {
-                  sendData = sentence.getBytes();
-                  DatagramPacket sendPacket =
-                     new DatagramPacket(sendData, sendData.length, IPAddress, port);
-                  serverSocket.send(sendPacket);
+                  outData = sentence.getBytes();
+                  DatagramPacket outPacket =
+                     new DatagramPacket(outData, outData.length, IPAddress, port);
+                  serverSocket.send(outPacket);
                   
                }
                
                else {
                   header[header.length - 1] = 0;
                   sentence = calcSum(header);
-                  sendData = sentence.getBytes();
-                  DatagramPacket sendPacket =
-                     new DatagramPacket(sendData, sendData.length, IPAddress, port);
-                  serverSocket.send(sendPacket);
+                  outData = sentence.getBytes();
+                  DatagramPacket outPacket =
+                     new DatagramPacket(outData, outData.length, IPAddress, port);
+                  serverSocket.send(outPacket);
                }
                packetNum++;
             }
