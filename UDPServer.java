@@ -1,56 +1,66 @@
 import java.io.*;
 import java.net.*;
 
+ /** 
+* UDPServer
+* 
+* To run, use the command 'java UDPServer' and update port numbers accordingly. 
+*
+* Update the path where "/Users/maggieblanton/Desktop/Networks/project1/" currently reads.
+* Ensure you have downloaded "TestFile.html" to the directory above.
+*
+* @author Sam Haupert, Naeem Ghossein, Maggie Blanton
+* @version 7.23.20
+*/
+
 class UDPServer {
    public static int offset = 0; 
-
+ 
    public static void main(String args[]) throws Exception {
    
-      DatagramSocket serverSocket = new DatagramSocket(11045);
+      DatagramSocket serverSocket = new DatagramSocket(10050);
       String newHeader = "";
       String sentence = "";
    
+      byte[] receiveData = new byte[256];
+      byte[] outData = new byte[256];
       byte[] header;
       byte[] packet;
-      byte[] outData = new byte[256];
-      byte[] inData = new byte[256];
       int packetNum = 0; 
       
       while (true) {
-         DatagramPacket inPacket = new DatagramPacket(inData, inData.length);
+         DatagramPacket receivePacket = new DatagramPacket(receiveData, receiveData.length);
          
-         serverSocket.receive(inPacket);
+         serverSocket.receive(receivePacket);
          
-         String message = new String(inPacket.getData());
+         String message = new String(receivePacket.getData());
       
          String[] filename = message.split(" ");
          System.out.println("Attempting to read: " + filename[1]);
-         String path = "/Users/maggieblanton/Desktop/Networks/project1/" + filename[1];
+         String path = "/Users/maggieblanton/Desktop/Networks/exampleProject/" + filename[1];
          File tmpDir = new File(path);
          
          if (tmpDir.exists()) { 
-            InetAddress IPAddress = inPacket.getAddress();
+            InetAddress IPAddress = receivePacket.getAddress();
           
-            int port = inPacket.getPort();
+            int port = receivePacket.getPort();
          
            
             RandomAccessFile read = new RandomAccessFile(filename[1], "r");
-            int flag = 0;
             long size = read.length();
+            int flag = 0;
          
             while (flag != -1) {
              
-            
                if (packetNum == 0) {
-                  newHeader = "Packet " + (packetNum) + "\nChecksum: " + "00000\r\n" + "\n" + "HTTP/1.0 200 Document Follows\r\n"
-                     + "Content-Type: text/plain\r\n"
+                  newHeader = "Packet " + (packetNum) + "\n" + "HTTP/1.0 200 Document Follows\r\n"
+                     + "Checksum: " + "00000\r\n" + "Content-Type: text/plain\r\n"
                      + "Content-Length: " + size + "\r\n\r\n" + "Data";
                   header = newHeader.getBytes();
                   packet = offset(header);
                }
                
                else {
-               
                   newHeader = "Packet " + (packetNum) + "\n" + "Checksum: " + "00000\r\n" + "\r\n";
                   header = newHeader.getBytes();
                   packet = offset(header);

@@ -3,18 +3,16 @@ import java.net.*;
 import java.util.*;
 
 /** 
-*
 * UDPClient 
+* 
+* To run, use the command 'java UDPClient ".1"' to test the gremlin function.
+* The ".1" field reflects a 10% chance of error.
+* Default probability is 0 if command line arguments are not provided. 
+*
+* Update the IP Address where "Maggies-MacBook-Pro.local" currently reads.
 *
 * @author Sam Haupert, Naeem Ghossein, Maggie Blanton
 * @version 7.23.20
-*
-* Before running, change 'Maggies-MacBook-Pro.local" to the IP Address of your choosing 
-* and change port numbers accordingly. 
-* 
-* Insert command line arguments to test the gremlin function. 
-* For example, the command 'java UDPClient ".1"' would provide an error rate of 10%.  
-* 
 */
 
 
@@ -39,7 +37,7 @@ class UDPClient {
       
       if (args.length == 0) { 
          System.out.println("\nDefault gremlin probability of 0 selected.");
-         System.out.println("To change, rerun with command line arguments inserted."); 
+         System.out.println("To change, rerun with command line argument inserted."); 
          gremlinProbability = 0.0;
       }
       else { 
@@ -71,7 +69,7 @@ class UDPClient {
       String http = "GET TestFile.html HTTP/1.0";
       sendData = http.getBytes();
      
-      DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, 10049);
+      DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, 10050);
       clientSocket.send(sendPacket);
    
       
@@ -118,7 +116,7 @@ class UDPClient {
       clientSocket.close();
       
       try {
-         PrintWriter writer = new PrintWriter("Output.txt", "UTF-8");
+         PrintWriter writer = new PrintWriter("Output", "UTF-8");
          writer.println(content);
          writer.close();
       } catch (IOException exception) {
