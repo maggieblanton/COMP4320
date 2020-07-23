@@ -53,8 +53,8 @@ class UDPServer {
             while (flag != -1) {
              
                if (packetNum == 0) {
-                  newHeader = "Packet " + (packetNum) + "\n" + "HTTP/1.0 200 Document Follows\r\n"
-                     + "Checksum: " + "00000\r\n" + "Content-Type: text/plain\r\n"
+                  newHeader = "Packet " + (packetNum) + "\nChecksum: " + "00000\r\n" + "\n" + "HTTP/1.0 200 Document Follows\r\n"
+                     + "Content-Type: text/plain\r\n"
                      + "Content-Length: " + size + "\r\n\r\n" + "Data";
                   header = newHeader.getBytes();
                   packet = offset(header);
