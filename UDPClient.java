@@ -2,20 +2,6 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
-/** 
-* UDPClient 
-* 
-* To run, use the command 'java UDPClient ".1"' to test the gremlin function.
-* The ".1" field reflects a 10% chance of error.
-* Default probability is 0 if command line arguments are not provided. 
-*
-* Update the IP Address where "Maggies-MacBook-Pro.local" currently reads.
-*
-* @author Sam Haupert, Naeem Ghossein, Maggie Blanton
-* @version 7.23.20
-*/
-
-
 class UDPClient {
    public static int packetsDamaged = 0;
    public static int messagesReceived = 0;
@@ -27,7 +13,8 @@ class UDPClient {
       Double gremlinProbability;
       
    
-      InetAddress IPAddress = InetAddress.getByName("Maggies-MacBook-Pro.local");
+      InetAddress IPAddress = InetAddress.getByName("192.168.1.12");
+      System.out.println(IPAddress);
    
       byte[] sendData = new byte[256];
       String message = "";
