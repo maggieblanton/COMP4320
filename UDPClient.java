@@ -6,7 +6,7 @@ import java.util.*;
 *
 * UDPClient 
 *
-* @authors Sam Haupert, Naeem Ghossein, Maggie Blanton
+* @author Sam Haupert, Naeem Ghossein, Maggie Blanton
 * @version 7.23.20
 *
 * Before running, change 'Maggies-MacBook-Pro.local" to the IP Address of your choosing. 
