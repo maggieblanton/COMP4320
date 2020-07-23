@@ -9,7 +9,7 @@ import java.util.*;
 * @author Sam Haupert, Naeem Ghossein, Maggie Blanton
 * @version 7.23.20
 *
-* Before running, change 'Maggies-MacBook-Pro.local" to the IP Address of your choosing. 
+* Before running, change 'Maggies-MacBook-Pro.local" to the IP Address of your choosing 
 * and change port numbers accordingly. 
 * 
 * Insert command line arguments to test the gremlin function. 
