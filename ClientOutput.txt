@@ -1,4 +1,6 @@
 
+Connected to: /192.168.1.83
+
 Gremlin probability of 0.1 selected.
 Gremlin will damage 5 packets.
 
@@ -28,16 +30,12 @@ Checksum: 19940
   <meta name="CocoaVersion" content="1894.3">
   <style type="text/css">
     p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 11.0px 
-ATTACKING: 2
 
-GREMLIN ATTACK NUMBER 1
-
-ERROR DETECTED: 
 Packet 3
 Checksum: 19820
 
-Menlo; color: #1900b8; -webkit-text-st�oke: #1900b8}
-    p.p2 {margin:�0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 11.0px Menlo; color: #1900b8; -webkit-text-stroke: #1900b8; min-height: 13.0px}
+Menlo; color: #1900b8; -webkit-text-stroke: #1900b8}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 11.0px Menlo; color: #1900b8; -webkit-text-stroke: #1900b8; min-height: 13.0px}
     span.s1 {font-kerning
 
 Packet 4
@@ -103,17 +101,13 @@ Packet 13
 Checksum: 17849
 
 ss="p1"><span class="s1">&lt;p&gt;AND LOUIS CAUGHT IT ON THE DEFLECTION! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! TOUCHDOWN AUBURN! TOUCHDOWN AUBURN! A MIRACLE IN JORDAN-HARE!&lt;/p&gt;</span><
-ATTACKING: 13
 
-GREMLIN ATTACK NUMBER 2
-
-ERROR DETECTED: 
-P�cket 14
+Packet 14
 Checksum: 18772
 
 /p>
 <p class="p1"><span class="s1">&lt;p&gt;A MIRACLE IN JORDAN-HARE! SEVENTY-THREE YARDS AND THE TIGERS, WITH 25 SECONDS TO GO, LEAD 43-38!&lt;/p&gt;</span></p>
-�p class="p1"><sp�n class="s1">&lt;p&gt;&lt;img src="https://www.
+<p class="p1"><span class="s1">&lt;p&gt;&lt;img src="https://www.
 
 Packet 15
 Checksum: 22408
@@ -126,44 +120,44 @@ Checksum: 20565
  story on his 'Miracle at Jordan ..." /&gt;&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;h2&gt;Go Crazy, Cadillac!&amp;nbsp;&lt;/h2&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&amp;ldquo;Go crazy, Cadillac
-ATTACKING: 16
 
-GREMLIN ATTACK NUMBER 3
-
-ERROR DETECTED: 
 Packet 17
 Checksum: 21699
 
 ! &amp;hellip; Go crazy!&amp;rdquo;&lt;/p&gt;</span></p>
-<p class="p1"><span class�"s1">&lt;p&gt;&lt;im� src="https://lh3.googleusercontent.com/proxy/DkIE2d3RCresTTfPMLLWDbkYgXIW8c3ec1ogkRR-BcYmokTv_wxd1KoP2qvu0tNCNxX9p-l8maFtw
-ATTACKING: 17
+<p class="p1"><span class="s1">&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/proxy/DkIE2d3RCresTTfPMLLWDbkYgXIW8c3ec1ogkRR-BcYmokTv_wxd1KoP2qvu0tNCNxX9p-l8maFtw
 
-GREMLIN ATTACK NUMBER 4
-
-ERROR DETECTED: 
 Packet 18
 Checksum: 20262
 
-exQ9CEC8y4JY7rzzFvok-MYYcgZMMIB9DXQpfKhfPRV75HyelPE1hQv_ZLfBKWsRQAEe-0" alt="Go Crazy, Cadillac! -" /&gt;&lt;/p&gt;</s�an></p>
-<p class="p1"><span clas�="s1">&lt;h2&gt;Kic� Six&lt;/h2&gt;</span></p>
+exQ9CEC8y4JY7rzzFvok-MYYcgZMMIB9DXQpfKhfPRV75HyelPE1hQv_ZLfBKWsRQAEe-0" alt="Go Crazy, Cadillac! -" /&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;h2&gt;Kick Six&lt;/h2&gt;</span></p>
 <p class="p1"><span class="s
 
 Packet 19
 Checksum: 19657
 
 1">&lt;p&gt;&lt;em&gt;&amp;ldquo;And Chris Davis takes it in the back of the end zone. He'll run it out to the 10...15...20...25, 30...35, 40...45, 50...45, there goes Davis! Davis is gonna run it all the way back!! &lt;/em&gt;
+ATTACKING: 19
 
+GREMLIN ATTACK NUMBER 1
+
+ERROR DETECTED: 
 Packet 20
 Checksum: 21343
 
 &lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;Auburn's gonna win the football game! Auburn's gonna win the football game! He ran the missed field goal back! He ran it back 109 yards! They're not gonna 
+<p class="�1"><span class="s1">&lt;p&gt;&lt;em&gt;Auburn's gonna win the football game! Auburn's gonna win �he football game! He ran the missed field goal back! He ran it back 109 yards! They're not gonna 
+ATTACKING: 20
 
+GREMLIN ATTACK NUMBER 2
+
+ERROR DETECTED: 
 Packet 21
 Checksum: 20747
 
 keep 'em off the field tonight! &lt;/em&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Holy cow! Oh my God!&lt;/strong&gt; &lt;/em&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Holy cow! Oh my God!&lt;/s�rong&gt; &lt;/em&�t;&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1
 
 Packet 22
@@ -226,15 +220,11 @@ Checksum: 20971
 p;nbsp;&lt;/h2&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&amp;ldquo;Go crazy, Cadillac! &amp;hellip; Go crazy!&amp;rdquo;&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&lt;img src="https://lh3.google
-ATTACKING: 31
 
-GREMLIN ATTACK NUMBER 5
-
-ERROR DETECTED: 
 Packet 32
-Ch�cksum: 21226
+Checksum: 21226
 
-usercontent.com/proxy/DkIE2d3RCresTTfPMLLWDbkYgXIW8c3ec1ogkRR-BcYmokTv_wxd1KoP2qvu0tNCNxX9p-l8maFtwexQ9CEC8y4JY7rzzFvok-MYYcgZMM�B9DXQpfKhfPRV75HyelPE1hQv_ZLfBKWsRQAEe-0" alt="Go Crazy, Cadillac! -" /&gt;&lt;/p&gt;</span></p>
+usercontent.com/proxy/DkIE2d3RCresTTfPMLLWDbkYgXIW8c3ec1ogkRR-BcYmokTv_wxd1KoP2qvu0tNCNxX9p-l8maFtwexQ9CEC8y4JY7rzzFvok-MYYcgZMMIB9DXQpfKhfPRV75HyelPE1hQv_ZLfBKWsRQAEe-0" alt="Go Crazy, Cadillac! -" /&gt;&lt;/p&gt;</span></p>
 <
 
 Packet 33
@@ -242,12 +232,16 @@ Checksum: 20341
 
 p class="p1"><span class="s1">&lt;h2&gt;Kick Six&lt;/h2&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&amp;ldquo;And Chris Davis takes it in the back of the end zone. He'll run it out to the 10...15...20...25
+ATTACKING: 33
 
+GREMLIN ATTACK NUMBER 3
+
+ERROR DETECTED: 
 Packet 34
 Checksum: 20248
 
 , 30...35, 40...45, 50...45, there goes Davis! Davis is gonna run it all the way back!! &lt;/em&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;Auburn's gonna win the football game! Auburn's gonna win
+<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;Auburn's gonna win the football game! Auburn's g�nna win
 
 Packet 35
 Checksum: 21151
@@ -297,17 +291,25 @@ Checksum: 17914
 
 p&gt;AND LOUIS CAUGHT IT ON THE DEFLECTION! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! TOUCHDOWN AUBURN! TOUCHDOWN AUBURN! A MIRACLE IN JORDAN-HARE!&lt;/p&gt;</span></p>
 <p class="p1"><span class
+ATTACKING: 42
 
+GREMLIN ATTACK NUMBER 4
+
+ERROR DETECTED: 
 Packet 43
 Checksum: 19011
 
-="s1">&lt;p&gt;A MIRACLE IN JORDAN-HARE! SEVENTY-THREE YARDS AND THE TIGERS, WITH 25 SECONDS TO GO, LEAD 43-38!&lt;/p&gt;</span></p>
+="s1">&lt;p&gt;A�MIRACLE IN JORDAN-HARE! SEVENTY-THREE YARDS AND THE TIGERS, WITH 25 SECONDS TO GO, LEAD 43-38!&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&lt;img src="https://www.al.com/resizer/3xEN7rPTd5fhdH
+ATTACKING: 43
 
+GREMLIN ATTACK NUMBER 5
+
+ERROR DETECTED: 
 Packet 44
 Checksum: 22358
 
-v7Ax7A6PkdfKE=/450x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width2048/img/sports_impact/photo/13788691-large.jpg" alt="Rod Bramblett shares the inside story on his 'Miracle at Jor
+v�Ax7A6PkdfKE=/450x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width2048/img/sports_impact/photo/13788691-large.jpg" alt="Rod Bramblett shares the inside story on hi� 'Mir�cle at Jor
 
 Packet 45
 Checksum: 13593
@@ -332,8 +334,8 @@ Message received:
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="1894.3">
   <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 11.0px Menlo; color: #1900b8; -webkit-text-st�oke: #1900b8}
-    p.p2 {margin:�0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 11.0px Menlo; color: #1900b8; -webkit-text-stroke: #1900b8; min-height: 13.0px}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 11.0px Menlo; color: #1900b8; -webkit-text-stroke: #1900b8}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 13.0px; font: 11.0px Menlo; color: #1900b8; -webkit-text-stroke: #1900b8; min-height: 13.0px}
     span.s1 {font-kerning: none}
   </style>
 </head>
@@ -350,30 +352,14 @@ Message received:
 <p class="p1"><span class="s1">&lt;p&gt;Alright, here we go, fourth-and-18 for the Tigers. Here's your ballgame. Nick Marshall &amp;hellip; stands in, steps up, is going to throw downfield. Just a homerun ball and uh, it is tipped up &amp;hellip;&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;AND LOUIS CAUGHT IT ON THE DEFLECTION! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! TOUCHDOWN AUBURN! TOUCHDOWN AUBURN! A MIRACLE IN JORDAN-HARE!&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;A MIRACLE IN JORDAN-HARE! SEVENTY-THREE YARDS AND THE TIGERS, WITH 25 SECONDS TO GO, LEAD 43-38!&lt;/p&gt;</span></p>
-�p class="p1"><sp�n class="s1">&lt;p&gt;&lt;img src="https://www.al.com/resizer/3xEN7rPTd5fhdHv7Ax7A6PkdfKE=/450x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width2048/img/sports_impact/photo/13788691-large.jpg" alt="Rod Bramblett shares the inside story on his 'Miracle at Jordan ..." /&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;h2&gt;Go Crazy, Cadillac!&amp;nbsp;&lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&amp;ldquo;Go crazy, Cadillac! &amp;hellip; Go crazy!&amp;rdquo;&lt;/p&gt;</span></p>
-<p class="p1"><span class�"s1">&lt;p&gt;&lt;im� src="https://lh3.googleusercontent.com/proxy/DkIE2d3RCresTTfPMLLWDbkYgXIW8c3ec1ogkRR-BcYmokTv_wxd1KoP2qvu0tNCNxX9p-l8maFtwexQ9CEC8y4JY7rzzFvok-MYYcgZMMIB9DXQpfKhfPRV75HyelPE1hQv_ZLfBKWsRQAEe-0" alt="Go Crazy, Cadillac! -" /&gt;&lt;/p&gt;</s�an></p>
-<p class="p1"><span clas�="s1">&lt;h2&gt;Kic� Six&lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&amp;ldquo;And Chris Davis takes it in the back of the end zone. He'll run it out to the 10...15...20...25, 30...35, 40...45, 50...45, there goes Davis! Davis is gonna run it all the way back!! &lt;/em&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;Auburn's gonna win the football game! Auburn's gonna win the football game! He ran the missed field goal back! He ran it back 109 yards! They're not gonna keep 'em off the field tonight! &lt;/em&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Holy cow! Oh my God!&lt;/strong&gt; &lt;/em&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;Auburn wins! Auburn has won the Iron Bowl! Auburn has won the Iron Bowl, in the most unbelievable fashion you will ever see! I cannot believe it; 34-28! &lt;/em&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;And we thought 'A Miracle in Jordan-Hare' was amazing! &lt;/em&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Oh my Lord in heaven&lt;/strong&gt;! Chris Davis... just ran it... 100... and 9 yards... and Auburn... is going... to the championship game!&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&lt;img src="https://www.al.com/resizer/_hIUwF1V_951wyDxeaLrjc7gwIU=/450x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/363FSGNW6NBALGC5GVWXTZVK3Y.jpg" alt="Chris Davis" /&gt;&lt;/em&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;h2&gt;Miracle at Jordan Hare&lt;/h2&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;Alright, here we go, fourth-and-18 for the Tigers. Here's your ballgame. Nick Marshall &amp;hellip; stands in, steps up, is going to throw downfield. Just a homerun ball and uh, it is tipped up &amp;hellip;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;AND LOUIS CAUGHT IT ON THE DEFLECTION! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! TOUCHDOWN AUBURN! TOUCHDOWN AUBURN! A MIRACLE IN JORDAN-HARE!&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;A MIRACLE IN JORDAN-HARE! SEVENTY-THREE YARDS AND THE TIGERS, WITH 25 SECONDS TO GO, LEAD 43-38!&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&lt;img src="https://www.al.com/resizer/3xEN7rPTd5fhdHv7Ax7A6PkdfKE=/450x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width2048/img/sports_impact/photo/13788691-large.jpg" alt="Rod Bramblett shares the inside story on his 'Miracle at Jordan ..." /&gt;&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;h2&gt;Go Crazy, Cadillac!&amp;nbsp;&lt;/h2&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&amp;ldquo;Go crazy, Cadillac! &amp;hellip; Go crazy!&amp;rdquo;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/proxy/DkIE2d3RCresTTfPMLLWDbkYgXIW8c3ec1ogkRR-BcYmokTv_wxd1KoP2qvu0tNCNxX9p-l8maFtwexQ9CEC8y4JY7rzzFvok-MYYcgZMM�B9DXQpfKhfPRV75HyelPE1hQv_ZLfBKWsRQAEe-0" alt="Go Crazy, Cadillac! -" /&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/proxy/DkIE2d3RCresTTfPMLLWDbkYgXIW8c3ec1ogkRR-BcYmokTv_wxd1KoP2qvu0tNCNxX9p-l8maFtwexQ9CEC8y4JY7rzzFvok-MYYcgZMMIB9DXQpfKhfPRV75HyelPE1hQv_ZLfBKWsRQAEe-0" alt="Go Crazy, Cadillac! -" /&gt;&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;h2&gt;Kick Six&lt;/h2&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&amp;ldquo;And Chris Davis takes it in the back of the end zone. He'll run it out to the 10...15...20...25, 30...35, 40...45, 50...45, there goes Davis! Davis is gonna run it all the way back!! &lt;/em&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;Auburn's gonna win the football game! Auburn's gonna win the football game! He ran the missed field goal back! He ran it back 109 yards! They're not gonna keep 'em off the field tonight! &lt;/em&gt;&lt;/p&gt;</span></p>
-<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Holy cow! Oh my God!&lt;/strong&gt; &lt;/em&gt;&lt;/p&gt;</span></p>
+<p class="�1"><span class="s1">&lt;p&gt;&lt;em&gt;Auburn's gonna win the football game! Auburn's gonna win �he football game! He ran the missed field goal back! He ran it back 109 yards! They're not gonna keep 'em off the field tonight! &lt;/em&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Holy cow! Oh my God!&lt;/s�rong&gt; &lt;/em&�t;&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;Auburn wins! Auburn has won the Iron Bowl! Auburn has won the Iron Bowl, in the most unbelievable fashion you will ever see! I cannot believe it; 34-28! &lt;/em&gt;&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;And we thought 'A Miracle in Jordan-Hare' was amazing! &lt;/em&gt;&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Oh my Lord in heaven&lt;/strong&gt;! Chris Davis... just ran it... 100... and 9 yards... and Auburn... is going... to the championship game!&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</span></p>
@@ -383,6 +369,22 @@ Message received:
 <p class="p1"><span class="s1">&lt;p&gt;AND LOUIS CAUGHT IT ON THE DEFLECTION! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! TOUCHDOWN AUBURN! TOUCHDOWN AUBURN! A MIRACLE IN JORDAN-HARE!&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;A MIRACLE IN JORDAN-HARE! SEVENTY-THREE YARDS AND THE TIGERS, WITH 25 SECONDS TO GO, LEAD 43-38!&lt;/p&gt;</span></p>
 <p class="p1"><span class="s1">&lt;p&gt;&lt;img src="https://www.al.com/resizer/3xEN7rPTd5fhdHv7Ax7A6PkdfKE=/450x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width2048/img/sports_impact/photo/13788691-large.jpg" alt="Rod Bramblett shares the inside story on his 'Miracle at Jordan ..." /&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;h2&gt;Go Crazy, Cadillac!&amp;nbsp;&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&amp;ldquo;Go crazy, Cadillac! &amp;hellip; Go crazy!&amp;rdquo;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;img src="https://lh3.googleusercontent.com/proxy/DkIE2d3RCresTTfPMLLWDbkYgXIW8c3ec1ogkRR-BcYmokTv_wxd1KoP2qvu0tNCNxX9p-l8maFtwexQ9CEC8y4JY7rzzFvok-MYYcgZMMIB9DXQpfKhfPRV75HyelPE1hQv_ZLfBKWsRQAEe-0" alt="Go Crazy, Cadillac! -" /&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;h2&gt;Kick Six&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&amp;ldquo;And Chris Davis takes it in the back of the end zone. He'll run it out to the 10...15...20...25, 30...35, 40...45, 50...45, there goes Davis! Davis is gonna run it all the way back!! &lt;/em&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;Auburn's gonna win the football game! Auburn's g�nna win the football game! He ran the missed field goal back! He ran it back 109 yards! They're not gonna keep 'em off the field tonight! &lt;/em&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Holy cow! Oh my God!&lt;/strong&gt; &lt;/em&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;Auburn wins! Auburn has won the Iron Bowl! Auburn has won the Iron Bowl, in the most unbelievable fashion you will ever see! I cannot believe it; 34-28! &lt;/em&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;And we thought 'A Miracle in Jordan-Hare' was amazing! &lt;/em&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&lt;strong&gt;Oh my Lord in heaven&lt;/strong&gt;! Chris Davis... just ran it... 100... and 9 yards... and Auburn... is going... to the championship game!&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;em&gt;&lt;img src="https://www.al.com/resizer/_hIUwF1V_951wyDxeaLrjc7gwIU=/450x0/smart/arc-anglerfish-arc2-prod-advancelocal.s3.amazonaws.com/public/363FSGNW6NBALGC5GVWXTZVK3Y.jpg" alt="Chris Davis" /&gt;&lt;/em&gt;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;h2&gt;Miracle at Jordan Hare&lt;/h2&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;Alright, here we go, fourth-and-18 for the Tigers. Here's your ballgame. Nick Marshall &amp;hellip; stands in, steps up, is going to throw downfield. Just a homerun ball and uh, it is tipped up &amp;hellip;&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;AND LOUIS CAUGHT IT ON THE DEFLECTION! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! LOUIS IS GOING TO SCORE! TOUCHDOWN AUBURN! TOUCHDOWN AUBURN! A MIRACLE IN JORDAN-HARE!&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;A�MIRACLE IN JORDAN-HARE! SEVENTY-THREE YARDS AND THE TIGERS, WITH 25 SECONDS TO GO, LEAD 43-38!&lt;/p&gt;</span></p>
+<p class="p1"><span class="s1">&lt;p&gt;&lt;img src="https://www.al.com/resizer/3xEN7rPTd5fhdHv�Ax7A6PkdfKE=/450x0/smart/advancelocal-adapter-image-uploads.s3.amazonaws.com/image.al.com/home/bama-media/width2048/img/sports_impact/photo/13788691-large.jpg" alt="Rod Bramblett shares the inside story on hi� 'Mir�cle at Jordan ..." /&gt;&lt;/p&gt;</span></p>
 <p class="p2"><span class="s1"></span><br></p>
 </body>
 </html>

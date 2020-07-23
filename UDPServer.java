@@ -1,10 +1,21 @@
 import java.io.*;
 import java.net.*;
 
+ /** 
+* UDPServer
+* 
+* To run, use the command 'java UDPServer' and update port numbers accordingly. 
+*
+* Update the path where "/Users/maggieblanton/Desktop/Networks/project1/" currently reads.
+* Ensure you have downloaded "TestFile.html" to the directory above.
+*
+* @author Sam Haupert, Naeem Ghossein, Maggie Blanton
+* @version 7.23.20
+*/
+
 class UDPServer {
    public static int offset = 0; 
-   public static String value = "100000";
-
+ 
    public static void main(String args[]) throws Exception {
    
       DatagramSocket serverSocket = new DatagramSocket(10050);
@@ -12,7 +23,7 @@ class UDPServer {
       String sentence = "";
    
       byte[] receiveData = new byte[256];
-      byte[] sendData = new byte[256];
+      byte[] outData = new byte[256];
       byte[] header;
       byte[] packet;
       int packetNum = 0; 
@@ -26,7 +37,7 @@ class UDPServer {
       
          String[] filename = message.split(" ");
          System.out.println("Attempting to read: " + filename[1]);
-         String path = "/Users/naeemghossein/COMP4320-master/" + filename[1];
+         String path = "/Users/maggieblanton/Desktop/Networks/project1/" + filename[1];
          File tmpDir = new File(path);
          
          if (tmpDir.exists()) { 
@@ -41,7 +52,6 @@ class UDPServer {
          
             while (flag != -1) {
              
-            
                if (packetNum == 0) {
                   newHeader = "Packet " + (packetNum) + "\n" + "HTTP/1.0 200 Document Follows\r\n"
                      + "Checksum: " + "00000\r\n" + "Content-Type: text/plain\r\n"
@@ -51,7 +61,6 @@ class UDPServer {
                }
                
                else {
-               
                   newHeader = "Packet " + (packetNum) + "\n" + "Checksum: " + "00000\r\n" + "\r\n";
                   header = newHeader.getBytes();
                   packet = offset(header);
@@ -68,20 +77,20 @@ class UDPServer {
             
             
                if (flag != -1) {
-                  sendData = sentence.getBytes();
-                  DatagramPacket sendPacket =
-                     new DatagramPacket(sendData, sendData.length, IPAddress, port);
-                  serverSocket.send(sendPacket);
+                  outData = sentence.getBytes();
+                  DatagramPacket outPacket =
+                     new DatagramPacket(outData, outData.length, IPAddress, port);
+                  serverSocket.send(outPacket);
                   
                }
                
                else {
                   header[header.length - 1] = 0;
                   sentence = calcSum(header);
-                  sendData = sentence.getBytes();
-                  DatagramPacket sendPacket =
-                     new DatagramPacket(sendData, sendData.length, IPAddress, port);
-                  serverSocket.send(sendPacket);
+                  outData = sentence.getBytes();
+                  DatagramPacket outPacket =
+                     new DatagramPacket(outData, outData.length, IPAddress, port);
+                  serverSocket.send(outPacket);
                }
                packetNum++;
             }
