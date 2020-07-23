@@ -2,6 +2,22 @@ import java.io.*;
 import java.net.*;
 import java.util.*;
 
+/** 
+*
+* UDPClient 
+*
+* @authors Sam Haupert, Naeem Ghossein, Maggie Blanton
+* @version 7.23.20
+*
+* Before running, change 'Maggies-MacBook-Pro.local" to the IP Address of your choosing. 
+* and change port numbers accordingly. 
+* 
+* Insert command line arguments to test the gremlin function. 
+* For example, the command 'java UDPClient ".1"' would provide an error rate of 10%.  
+* 
+*/
+
+
 class UDPClient {
    public static int packetsDamaged = 0;
    public static int messagesReceived = 0;
@@ -23,7 +39,7 @@ class UDPClient {
       
       if (args.length == 0) { 
          System.out.println("\nDefault gremlin probability of 0 selected.");
-         System.out.println("To change, rerun with command line argument inserted."); 
+         System.out.println("To change, rerun with command line arguments inserted."); 
          gremlinProbability = 0.0;
       }
       else { 
@@ -55,7 +71,7 @@ class UDPClient {
       String http = "GET TestFile.html HTTP/1.0";
       sendData = http.getBytes();
      
-      DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, 10050);
+      DatagramPacket sendPacket = new DatagramPacket(sendData, sendData.length, IPAddress, 10049);
       clientSocket.send(sendPacket);
    
       
